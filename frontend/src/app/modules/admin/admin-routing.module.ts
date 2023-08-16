@@ -37,9 +37,9 @@ const routes: Routes = [
       {
         path:'dashboard',component:DashboardComponent
       },
-      // {
-      //   path:'payment',component:PaymentComponent
-      // },
+       {
+         path:'payment',component:PaymentComponent
+       },
       {
         path:'users',component:UsersComponent
       },

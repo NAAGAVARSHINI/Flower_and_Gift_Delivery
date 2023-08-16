@@ -20,7 +20,6 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" routerLink="/login" *ngIf="!token">SignIn/SignUp</a>
-          <a class="dropdown-item" routerLink="/my-orders">Profile</a>
           <a class="dropdown-item" routerLink="/my-orders">MyOrders</a>
           <a class="dropdown-item" (click)="onLogout()" *ngIf="token">Logout</a>
           <div class="dropdown-divider"></div>
